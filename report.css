@@ -1,0 +1,207 @@
+@media print
+{
+    .border_t, .border_t *,.border_l, .border_l *, .border_r, .border_r *,.border_b, .border_b *
+    {
+        display: none !important;
+    }
+    footer {page-break-after: always;}   
+}
+@print
+{
+	size: A4 landscape;
+}
+body
+{
+	text-align: center;
+	white-space: nowrap;
+}
+.border_t
+{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	width: 800px;
+	height: 65px;
+	margin: auto;
+}
+.border_b
+{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	width: 800px;
+	height: 65px;
+	margin: auto;
+	margin-top: -5px;
+	margin-bottom: 30px;
+}
+.border_l
+{
+	border-left: 1px solid black;
+	width: 65px;
+	height: 948px;
+	display: inline-block;
+}
+.border_r
+{
+	border-right: 1px solid black;
+	width: 65px;
+	height: 948px;
+	display: inline-block;
+}
+.page
+{
+	font-family: Calibri, Tahoma, Arial;
+	width: 670px;
+	height: 948px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+.logo
+{
+	text-align: center;
+}
+.logo img
+{
+	width: 264px;
+}
+.address{
+	margin: auto;
+}
+.left, .right
+{
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	z-index: 1;
+	vertical-align: top;
+}
+.left
+{
+	text-align: left;
+}
+.right
+{
+	text-align: right;
+}
+.horizontal
+{
+	margin: auto;
+	border-spacing: 0px;
+	margin-top: 30px;
+}
+.horizontal .title
+{
+	font-weight: bold;
+	line-height: 60px;
+	background-color: #e6e6e6;
+}
+.horizontal .summary td
+{
+	font-weight: bold;
+	background-color: #e6e6e6;
+	border-bottom: 2px solid black;
+	text-align: center;
+	height: 5px;
+}
+.horizontal tr
+{
+	line-height: 40px;
+}
+.horizontal td
+{
+	border-top: 2px solid black;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 9pt;
+}
+.horizontal .text
+{
+	min-width: 140px;
+	max-width: 140px;
+}
+.horizontal .number
+{
+	text-align: right;
+}
+.vertical
+{
+	border: 2px solid #cccccc;
+}
+.vertical .title
+{
+	font-weight: bold;
+}
+.vertical td
+{
+	padding: 4px;
+}
+.note
+{
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 30px;
+}
+h1, h2, h3
+{
+	text-align: center;
+}
+h3
+{
+	padding-top: 20px;
+}
+.field
+{
+	border: 3px solid #cccccc;
+	height: 35px;
+	width: 450px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.register
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+.register .box
+{
+	border: 2px solid #cccccc;
+	width: 20px;
+	height: 20px;
+	padding-left: 0px;
+}
+.register .delegate
+{
+	padding-left: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	min-width: 150px;
+	max-width: 150px;
+}
+.badge
+{
+    border-spacing: 20px;
+	text-align: center;
+	margin: auto;
+}
+.badge td
+{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 15px;
+	width: 250px;
+	height: 125px;
+}
+.badge img
+{
+	height:60px;
+	padding: 10px;
+}
+.badge h5
+{
+	margin: 0px;
+}
